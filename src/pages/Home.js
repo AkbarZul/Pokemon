@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import PokemonCard from "../components/PokemonCard";
+import Loader from "../components/Loader";
 
 const Home = () => {
   const [allPokemons, setAllPokemons] = useState([]);
@@ -33,7 +34,7 @@ const Home = () => {
     <>
       {loading ? (
         <div className="app-contaner">
-          <h3>Loading</h3>
+          <Loader />
         </div>
       ) : (
         <div className="app-contaner">
