@@ -13,3 +13,7 @@
 2. git clone `https://github.com/AkbarZul/Pokemon`
 3. Buat folder di direktori dan ketik `npm i` atau `npm install` untuk menginstall dependencies
 4. `npm start` untuk memulai project
+
+ ## Link Demo
+
+ [`Demo`](https://pokemon-up.herokuapp.com/)
