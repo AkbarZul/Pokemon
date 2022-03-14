@@ -1,6 +1,6 @@
 # Pokemon Evolution
 <div align="center">
-    <img width="250" src="./public/pokemon.png">
+    <img width="250" src="./public/pokemonlogo.png">
 </div>
 
 ## Requirements for Development
