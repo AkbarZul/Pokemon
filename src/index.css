@@ -114,3 +114,64 @@ h3 {
   min-width: 50%;
   margin-top: 1rem;
 }
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 0 ;
+  margin: 1rem;
+  border: 1px solid #efefef;
+  border-radius: 10px;
+  /* background-color: #444; */
+  text-align: center;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.089);
+}
+.textCard {
+  font-size: 30px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 14px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.type-container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 15px;
+  background-color: #52526B;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 0 ;
+  margin: 1rem;
+  border: 1px solid #efefef;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.089);
+}
+
+.TextInfo {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.card-stats {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 0 ;
+  margin: 1rem;
+  border: 1px solid #efefef;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.089);
+}

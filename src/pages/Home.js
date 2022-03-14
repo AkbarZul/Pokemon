@@ -42,12 +42,7 @@ const Home = () => {
           <div className="pokemon-container">
             <div className="all-container">
               {allPokemons.map((pokemonStats, index) => (
-                <PokemonCard
-                  key={index}
-                  image={pokemonStats.sprites.other.dream_world.front_default}
-                  name={pokemonStats.name}
-                  type={pokemonStats.types[0].type.name}
-                />
+                <PokemonCard key={index} pokemon={pokemonStats} />
               ))}
             </div>
             <button className="load-more" onClick={() => getAllPokemons()}>
